@@ -19,14 +19,14 @@
 </script>
 <title>Vamx AM Player · Alight Motion Web Runtime</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231fc8ee'/%3E%3Cpolygon points='24,16 48,32 24,48' fill='%23000'/%3E%3C/svg%3E">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
     :root {
-        --bg: #090a0e; --panel: #11131a; --card: #171a22; --card2: #1e222c;
-        --line: #252a36; --line2: #323949;
-        --text: #e9ecf3; --muted: #8c93a7;
-        --accent: #1fc8ee; --accent-ink: #03222c; --violet: #a793ff;
-        --ok: #79dc98; --warn: #f0b866; --bad: #ff8a8a;
+        --bg: #090a0c; --panel: #111215; --card: #16181d; --card2: #1d2027;
+        --line: #22242a; --line2: #2d313b;
+        --text: #ededee; --muted: #8a8f98;
+        --accent: #2f81f7; --accent-ink: #ffffff; --violet: #a793ff;
+        --ok: #10b981; --warn: #f59e0b; --bad: #ef4444;
         --tl-label: 112px; --nav-h: 56px; --top-h: 52px;
         --safe-b: env(safe-area-inset-bottom, 0px);
         --stage-h: minmax(190px, 36vh);
@@ -39,7 +39,7 @@
     [hidden] { display: none !important; }
     html, body { height: 100%; }
     body {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-family: 'Plus Jakarta Sans', -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-size: 14px; line-height: 1.4; background: var(--bg); color: var(--text); overflow: hidden;
     }
     button, input, select { font: inherit; color: inherit; }
@@ -626,7 +626,7 @@
         <div class="brand">
             <div class="logo"><svg viewBox="0 0 24 24" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg></div>
             <div class="brand-text">
-                <h1>AM Preset Player</h1>
+                <h1>VAMX // AM PLAYER</h1>
                 <div class="subtitle" id="subtitle">Memuat preset...</div>
             </div>
         </div>
@@ -638,11 +638,11 @@
         </div>
         <div class="top-actions">
             <button id="hdrOpen" class="btn ghost" type="button" title="Buka file preset XML"><svg class="i"><use href="#i-file"/></svg><span class="hide-sm">Buka XML</span></button>
-            <a class="btn ghost" href="preview.html" title="Preview efek"><svg class="i"><use href="#i-zap"/></svg><span class="hide-sm">Preview efek</span></a>
+            <a class="btn ghost" href="/" title="Beranda"><svg class="i"><use href="#i-zap"/></svg><span class="hide-sm">Beranda</span></a>
             <div id="simpleHint" class="simple-hint" hidden>
                 <button id="simpleHintClose" class="simple-hint-close" type="button" aria-label="Tutup">×</button>
                 <div class="simple-hint-title">Mode Simple baru</div>
-                <div class="simple-hint-text">Woi, pencet <b>Simple</b> kalau mau tampilan yang lebih ringkas.</div>
+                <div class="simple-hint-text">Gunakan mode <b>Simple</b> untuk antarmuka yang lebih ringkas.</div>
                 <span class="simple-hint-arrow" aria-hidden="true"></span>
             </div>
             <button id="modeToggleBtn" class="btn ghost sm" type="button" title="Pindah ke mode simple">Simple</button>
