@@ -1,0 +1,21 @@
+{
+  "name": "vamx-alight-player",
+  "version": "1.0.0",
+  "description": "Vamx AM Web - Browser-based Alight Motion Preset Player & Web Runtime Engine",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve public"
+  },
+  "keywords": [
+    "alight-motion",
+    "preset-player",
+    "webgl",
+    "xml-preset",
+    "vamxapi"
+  ],
+  "author": "Vamz Spectre",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}
